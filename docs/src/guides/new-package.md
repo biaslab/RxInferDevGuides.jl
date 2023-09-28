@@ -139,3 +139,7 @@ julia --project=docs docs/make.jl
 ```
 
 For customization, refer to the `Documenter.jl` documentation. Also, check out the [contributing guide](@ref guide-docs-contributing).
+
+### Hosting Documentation with GitHub Actions
+
+The template provided generates a package with automatic documentation hosting through GitHub Actions. To make this process work, you'll need to generate a `DOCUMENTER_KEY` using `DocumenterTools.jl` and add it to your package's repository settings. You can find detailed instructions on how to do this [here](https://documenter.juliadocs.org/stable/man/hosting/#travis-ssh).
