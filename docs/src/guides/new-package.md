@@ -143,3 +143,12 @@ For customization, refer to the `Documenter.jl` documentation. Also, check out t
 ### Hosting Documentation with GitHub Actions
 
 The template provided generates a package with automatic documentation hosting through GitHub Actions. To make this process work, you'll need to generate a `DOCUMENTER_KEY` using `DocumenterTools.jl` and add it to your package's repository settings. You can find detailed instructions on how to do this [here](https://documenter.juliadocs.org/stable/man/hosting/#travis-ssh).
+
+### Enable GitHub Pages in Repository Settings
+
+The final step for setting up documentation hosting is to enable GitHub Pages in your package's repository settings. To do this:
+
+1. Navigate to the GitHub Pages settings of your repository.
+2. Choose the **Deploy from a branch** option.
+3. Select the `gh-pages` branch.
+
