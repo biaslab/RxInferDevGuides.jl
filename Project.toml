@@ -1,7 +1,12 @@
 name = "RxInferDevGuides"
 uuid = "70742399-5db5-4607-b693-0113a7a539d0"
 authors = ["Bagaev Dmitry <d.v.bagaev@tue.nl>"]
-version = "1.0.0-DEV"
+version = "1.0.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
+PkgTemplates = "14b8a8f1-9102-5b29-a752-f990bacb7fe1"
 
 [compat]
 julia = "1.9"
